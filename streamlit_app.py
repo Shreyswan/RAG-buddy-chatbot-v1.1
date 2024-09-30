@@ -32,7 +32,7 @@ def main():
     st.write("Is this your first time using the app?")
 
     col1, col2, col3, col4 = st.columns(4)
-    yes_button = col2.link_button("Yes!", "http://localhost:8501/chat_bot")
+    yes_button = col2.link_button("Yes!", "https://rag-buddy-chatbot-v11.streamlit.app/chat_bot")
     no_button = col3.button("No, this is my first time")
 
     if no_button:
